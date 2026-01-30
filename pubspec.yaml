@@ -1,0 +1,30 @@
+name: sms_forwarder
+description: SMS Forwarder - 短信转发到 Bark 推送服务
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0-0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  # HTTP 请求
+  http: ^1.2.0
+  # 本地存储
+  shared_preferences: ^2.2.2
+  # 权限管理
+  permission_handler: ^11.3.0
+  # URL 启动器
+  url_launcher: ^6.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/
