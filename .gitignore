@@ -12,6 +12,14 @@
 .swiftpm/
 migrate_working_dir/
 
+# IDE/Editor specific
+.cursorrules
+.windsurfrules
+.agent/
+.cursor/
+.kiro/
+codechat/
+
 # IntelliJ related
 *.iml
 *.ipr
